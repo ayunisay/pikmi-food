@@ -29,6 +29,12 @@ const Carousel = () => {
             <h2 className="text-2xl font-bold text-blue-900">Diskon Nasi Goreng</h2>
           </div>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="bg-blue-400 h-full flex items-center justify-center">
+            <h2 className="text-2xl font-bold text-blue-900">Resto mana yang kamu suka?</h2>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
