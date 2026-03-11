@@ -13,18 +13,22 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container">
                 <div className="flex">
-                    <div className="flex-1">
-                        <div className="text-2xl flex items-center gap-12 font-bold py-8">
+                    <div className="flex-auto flex justify-start">
+                        <div className="text-2xl flex items-center font-bold py-8">
                             {/* <MdMenu/> */}
-                            <a href="#" className="flex items-center mr-8">
+                            <a href="#" className="flex items-center">
                                 <img src="/src/assets//img/logo.png" alt="Logo" className="h-auto w-12"/>
                             </a>
+                        </div>
+                    </div>
+                    <div className="flex-auto flex justify-center">
+                        <div className="text-2xl flex items-center gap-12 font-bold py-11">
                             <a href="#" className="text-2xl hover:text-blue-500">Home</a>
                             <a href="#" className="text-2xl hover:text-blue-500">Food</a>
                             <a href="#" className="text-2xl hover:text-blue-500">Pesanan</a>
                         </div>
                     </div>
-                    <div className="flex-2">
+                    <div className="flex-auto flex justify-end">
                         <div className="text-2xl flex items-center gap-12 font-bold py-11">
                             <a href="#">
                                 <BsCart2 className="text-3xl"/>
