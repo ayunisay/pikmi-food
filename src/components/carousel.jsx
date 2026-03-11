@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 const Carousel = () => {
   return (
-    <div className="w-full h-[400px] mb-8"> {/* Sesuaikan tinggi dengan desain Figma */}
+    <div className="w-full h-[400px]"> {/* Sesuaikan tinggi dengan desain Figma */}
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
