@@ -4,7 +4,6 @@ import { Search, MapPin } from "lucide-react";
 const SearchBar = () => {
   return (
     <div className="flex items-center gap-4 w-full max-w-6xl mx-auto px-4">
-      {/* Bagian Lokasi (Sesuai Figma) */}
       <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full whitespace-nowrap">
         <MapPin className="w-4 h-4 text-blue-500" />
         <span className="text-sm font-medium">Jakarta, Indonesia</span>

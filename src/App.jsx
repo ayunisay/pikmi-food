@@ -53,6 +53,30 @@ function App() {
       title: "Gado-Gado",
       price: "15.000",
       image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFzaSUyMGdvcmVuZyUyMHNwZWNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      id: 9,
+      title: "Nasi Goreng Spesial",
+      price: "25.000",
+      image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFzaSUyMGdvcmVuZyUyMHNwZWNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      id: 10,
+      title: "Soto Ayam",
+      price: "18.000",
+      image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFzaSUyMGdvcmVuZyUyMHNwZWNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      id: 11,
+      title: "Sate Ayam",
+      price: "22.000",
+      image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFzaSUyMGdvcmVuZyUyMHNwZWNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      id: 12,
+      title: "Gado-Gado",
+      price: "15.000",
+      image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFzaSUyMGdvcmVuZyUyMHNwZWNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
     }
   ]
   return (

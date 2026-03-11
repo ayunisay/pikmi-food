@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// Pastikan semua ikon yang dipakai terdaftar di sini!
 import { Utensils, Pizza, Coffee, Dessert, Cherry, Sandwich, CookingPot, Soup } from "lucide-react";
 
 const categories = [
