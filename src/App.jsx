@@ -1,5 +1,6 @@
 import FoodCard from './components/FoodCard'
 import Navbar from './components/navbar/navbar'
+import Carousel from './components/carousel'
 
 function App() {
   const foods = [
@@ -99,8 +100,14 @@ function App() {
     
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="overflow-x-hidden">
-      <Navbar items={navbarItems} />
-    </div>
+        <Navbar items={navbarItems} />
+      </div>
+      {/* <Carousel /> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mt-2">
+        <div className="col-span-6">
+          <Carousel/>
+        </div>
+      </div>
       {/* <h1 className="text-3xl font-bold text-orange-600 mb-8 mt-12 text-center">Pikmi Food</h1> */}
       
       {/* Grid untuk multiple cards */}

@@ -838,3 +838,9 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+
+/* add new */
+.swiper-pagination-bullet-active {
+  background: #76b6fa !important;
+}
