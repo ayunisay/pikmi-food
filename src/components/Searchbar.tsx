@@ -1,7 +1,7 @@
 import React from 'react';
 import { Search, MapPin } from "lucide-react";
 
-const SearchBar = () => {
+const SearchBar: React.FC = () => {
   return (
     <div className="flex items-center gap-4 w-full max-w-6xl mx-auto px-4">
       <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full whitespace-nowrap">

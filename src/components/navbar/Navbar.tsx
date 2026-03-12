@@ -2,9 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom"; // Import NavLink
 import { BsCart2, BsPersonCircle } from "react-icons/bs";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   // Fungsi helper untuk styling link
-  const linkStyle = ({ isActive }) => 
+  const linkStyle = ({ isActive }: { isActive: boolean }) => 
     isActive 
       ? "text-2xl font-bold text-blue-500 border-b-2 border-blue-500 pb-1" // Style kalau aktif
       : "text-2xl font-bold text-gray-700 hover:text-blue-500 transition-all"; // Style kalau biasa
@@ -29,7 +29,7 @@ const Navbar = () => {
             <NavLink to="/food" className={linkStyle}>
                 Food
             </NavLink>
-            <NavLink to="/pesanan" className={linkStyle}>
+            <NavLink to="/order" className={linkStyle}>
                 Pesanan
             </NavLink>
           </div>

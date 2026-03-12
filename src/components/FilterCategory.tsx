@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Utensils, Pizza, Coffee, Dessert, Cherry, Sandwich, CookingPot, Soup } from "lucide-react";
 
-const categories = [
+interface Category {
+  id: number;
+  name: string;
+  icon: React.ReactNode;
+}
+
+const categories: Category[] = [
   { id: 1, name: 'Semua', icon: <Utensils size={20} /> },
   { id: 2, name: 'Pizza', icon: <Pizza size={20} /> },
   { id: 3, name: 'Minuman', icon: <Coffee size={20} /> },
@@ -12,8 +18,8 @@ const categories = [
   { id: 8, name: 'Martabak', icon: <Soup size={20} /> },
 ];
 
-const FilterCategory = () => {
-  const [active, setActive] = useState(1);
+const FilterCategory: React.FC = () => {
+  const [active, setActive] = useState<number>(1);
 
   return (
     <div className="flex items-center gap-4 overflow-x-auto px-2 no-scrollbar justify-center">
